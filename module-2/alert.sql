@@ -1,7 +1,7 @@
 USE ROLE accountadmin;
 USE DATABASE staging_tasty_bytes;
 USE SCHEMA public;
-
+--first commit
 CREATE TABLE staging_tasty_bytes.telemetry.data_quality_alerts (
   alert_time TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP(),
   alert_name VARCHAR,
